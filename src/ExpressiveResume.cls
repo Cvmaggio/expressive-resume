@@ -83,6 +83,12 @@
     \end{flushleft}
 }
 
+\newcommand{\summary}[1]{%
+    \begin{flushleft}
+        \textsc{Summary}: #1
+    \end{flushleft}
+}
+
 %% ----- Four Required Configurations -----
 \renewcommand{\normalsize}{\fontsize{10pt}{12pt}\selectfont}
 \setlength{\textwidth}{7.5in}
